@@ -1,0 +1,32 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}, {
+			"path": "pages/myself/myself",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "狗鸡吧",
+		"navigationBarBackgroundColor": "#669999",
+		"backgroundColor": "#669999"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/index.png",
+				"selectedIconPath":"static/index-active.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/myself/myself",
+				"iconPath":"static/my.png",
+				"selectedIconPath":"static/my-active.png"
+			}
+		]
+	}
+}
